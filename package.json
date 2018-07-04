@@ -16,8 +16,14 @@
   "author": "TheConnMan",
   "license": "MIT",
   "devDependencies": {
+    "@types/aws-lambda": "^8.10.7",
+    "@types/delay": "^2.0.1",
     "@types/node": "^10.5.1",
     "tslint": "^5.10.0",
     "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.268.1",
+    "delay": "^3.0.0"
   }
 }
